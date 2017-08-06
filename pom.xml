@@ -12,6 +12,7 @@
         <junit.version>4.12</junit.version>
         <guava.version>18.0</guava.version>
         <lombok.version>1.16.12</lombok.version>
+        <commons-lang3.version>3.6</commons-lang3.version>
     </properties>
 
     <dependencies>
@@ -36,6 +37,13 @@
             <version>${lombok.version}</version>
         </dependency>
         <!-- lombok end -->
+        <!-- apache commons begin -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <!-- apache commons end -->
     </dependencies>
 
     <build>
