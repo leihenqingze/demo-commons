@@ -13,6 +13,7 @@
         <guava.version>18.0</guava.version>
         <lombok.version>1.16.12</lombok.version>
         <commons-lang3.version>3.6</commons-lang3.version>
+        <fastjson.version>1.2.35</fastjson.version>
     </properties>
 
     <dependencies>
@@ -44,6 +45,13 @@
             <version>${commons-lang3.version}</version>
         </dependency>
         <!-- apache commons end -->
+        <!-- fastjson begin -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+        <!-- fastjson end -->
     </dependencies>
 
     <build>
